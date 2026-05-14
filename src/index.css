@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-blue: #0ea5e9;
+  --color-neon-cyan: #22d3ee;
+  --color-dark-bg: #0f172a;
+  --color-light-bg: #f8fafc;
+  --color-dark-card: #1e293b;
+  --color-light-card: #ffffff;
+}
+
+@layer base {
+  :root {
+    --bg-color: var(--color-light-bg);
+    --text-color: #0f172a;
+    --card-bg: var(--color-light-card);
+    --card-border: #e2e8f0;
+    --accent-color: var(--color-neon-blue);
+    --accent-hover: #0284c7;
+    --text-muted: #64748b;
+  }
+
+  .dark {
+    --bg-color: var(--color-dark-bg);
+    --text-color: #f8fafc;
+    --card-bg: var(--color-dark-card);
+    --card-border: #334155;
+    --accent-color: var(--color-neon-cyan);
+    --accent-hover: #06b6d4;
+    --text-muted: #94a3b8;
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-hover);
+}
+
+/* Glassmorphism */
+.glass {
+  background: color-mix(in srgb, var(--card-bg) 70%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid color-mix(in srgb, var(--card-border) 50%, transparent);
+}
+
+.dark .glass {
+  background: color-mix(in srgb, var(--card-bg) 60%, transparent);
+}
+
+/* Neon Text */
+.text-neon {
+  color: var(--accent-color);
+  text-shadow: 0 0 10px color-mix(in srgb, var(--accent-color) 40%, transparent);
+}
+
+/* Glow Effect */
+.glow-effect {
+  position: relative;
+}
+
+.glow-effect::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(to right, var(--color-neon-blue), var(--color-neon-cyan));
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  filter: blur(8px);
+}
+
+.glow-effect:hover::before {
+  opacity: 0.7;
+}
