@@ -42,7 +42,7 @@ export default function Contact() {
                   <div>
                     <p className="text-sm text-[var(--text-muted)] font-medium">Email</p>
                     <a href="mailto:placeholder@email.com" className="text-[var(--text-color)] font-medium hover:text-[var(--accent-color)] transition-colors">
-                      placeholder@email.com
+                      sabbauddinkhan@gmail.com
                     </a>
                   </div>
                 </div>

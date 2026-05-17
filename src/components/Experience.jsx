@@ -55,6 +55,45 @@ export default function Experience() {
             </div>
             <div className="hidden md:block w-full md:w-1/2 pl-12"></div>
           </motion.div>
+          {/* Internship Timeline Item */}
+          <motion.div 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="relative flex flex-col md:flex-row items-center w-full mt-12"
+          >
+            {/* Timeline Dot */}
+            <div className="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-full bg-[var(--accent-color)] flex items-center justify-center z-10 shadow-[0_0_15px_var(--accent-color)] border-4 border-[var(--bg-color)]">
+              <Briefcase size={18} className="text-white" />
+            </div>
+
+            {/* Alternate Side */}
+            <div className="hidden md:block w-full md:w-1/2 pr-12"></div>
+
+            {/* Content Box */}
+            <div className="w-full md:w-1/2 ml-12 md:ml-0 md:pl-12 mb-8 md:mb-0">
+              <div className="glass p-6 rounded-2xl glow-effect relative">
+                <span className="inline-block px-3 py-1 bg-[var(--accent-color)]/20 text-[var(--accent-color)] text-sm font-semibold rounded-full mb-3">
+                  Jan 2024 - Mar 2024
+                </span>
+
+                <h3 className="text-2xl font-bold text-[var(--text-color)] mb-1">
+                  Web Development Intern
+                </h3>
+
+                <h4 className="text-lg text-[var(--text-muted)] font-medium mb-4">
+                  Premiere EdTech
+                </h4>
+
+                <ul className="text-[var(--text-color)] space-y-2 text-sm leading-relaxed list-disc pl-5">
+                  <li>Developed responsive UI components using React.js.</li>
+                  <li>Developed a fully responsive E-commerce website.</li>
+                  <li>Integrated Authentication, multi sign-up/sign-in, and Payment gateway.</li>
+                </ul>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </div>
     </section>
