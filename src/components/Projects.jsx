@@ -20,10 +20,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "Smart Home Automation Concept",
-    description: "Designed concepts for a smart home automation system based on sensors and environmental conditions.",
-    features: ["Automatic controls", "Weather-based automation", "Manual override system"],
-    tech: ["IoT Concepts", "Automation Logic"],
+    title: "Red Bus Ticket Booking Analysis",
+    description: "Designed Mappings and applied necessary transformation to dimention tables and fact tables.",
+    features: ["Automatic tracking", "Proper ETL logic", "BI Dashboard"],
+    tech: ["ETL Concepts","Informatica PowerCenter", "Power BI"],
     icon: <Cpu className="w-8 h-8" />
   },
   {
