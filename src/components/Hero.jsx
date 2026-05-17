@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Download, ArrowRight } from 'lucide-react';
 import { Link } from 'react-scroll';
+import { Typewriter } from 'react-simple-typewriter';
 
 export default function Hero() {
   return (
@@ -41,14 +42,38 @@ export default function Hero() {
               </span>
             </motion.h1>
 
-            <motion.h3 
+            {/* <motion.h3 
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
               className="text-2xl md:text-3xl font-semibold mb-6 text-[var(--text-color)]"
             >
               Associate Software Engineer
-            </motion.h3>
+            </motion.h3> */}
+            <motion.h3 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6 }}
+            className="text-2xl md:text-3xl font-semibold mb-6 text-[var(--text-color)]"
+          >
+            I am{" "}
+            <span className="text-[var(--color-neon-cyan)]">
+              <Typewriter
+                words={[
+                  'a Developer',
+                  'an Engineer',
+                  // 'a Data Engineer',
+                  // 'Backend Enthusiast'
+                ]}
+                loop={0}
+                cursor
+                cursorStyle="|"
+                typeSpeed={80}
+                deleteSpeed={50}
+                delaySpeed={1500}
+              />
+            </span>
+          </motion.h3>
 
             <motion.p 
               initial={{ opacity: 0 }}
