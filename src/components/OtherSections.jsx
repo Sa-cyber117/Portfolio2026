@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Award, GraduationCap, Trophy, Layers } from 'lucide-react';
 
 const certifications = [
+  "DP-900",
   "Informatica",
   "Snowflake",
   "SQL",
