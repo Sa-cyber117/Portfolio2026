@@ -2,11 +2,12 @@ import { motion } from 'framer-motion';
 import { Award, GraduationCap, Trophy, Layers } from 'lucide-react';
 
 const certifications = [
-  "Informatica Training",
-  "Snowflake Fundamentals",
-  "SQL Basics",
-  "Agile Fundamentals",
-  "Linux/Unix Basics"
+  "Informatica",
+  "Snowflake",
+  "SQL",
+  "PowerBi",
+  "Agile",
+  "Linux/Unix"
 ];
 
 const achievements = [

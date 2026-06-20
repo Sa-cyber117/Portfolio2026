@@ -36,7 +36,7 @@ export default function About() {
               </p>
               <p className="text-lg text-[var(--text-color)] leading-relaxed">
                 I have a strong interest in automation, backend systems, data pipelines, AI tools, and smart technologies. 
-                I enjoy problem-solving, debugging, and continuously learning new technologies to improve systems. My ultimate goal is to transition into product-based companies and modern software engineering roles.
+                I enjoy problem-solving, debugging, and continuously learning new technologies to improve systems.
               </p>
             </div>
           </motion.div>
@@ -49,7 +49,7 @@ export default function About() {
             className="flex-1 grid grid-cols-2 gap-6"
           >
             <div className="glass p-6 rounded-xl text-center hover:-translate-y-2 transition-transform duration-300">
-              <h3 className="text-4xl font-bold text-neon mb-2">1+</h3>
+              <h3 className="text-4xl font-bold text-neon mb-2">2</h3>
               <p className="text-[var(--text-muted)] font-medium">Years Experience</p>
             </div>
             <div className="glass p-6 rounded-xl text-center hover:-translate-y-2 transition-transform duration-300">
