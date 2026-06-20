@@ -7,7 +7,6 @@ const certifications = [
   "Snowflake",
   "SQL",
   "PowerBi",
-  "Agile",
   "Linux/Unix"
 ];
 
