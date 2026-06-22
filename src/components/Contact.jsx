@@ -64,7 +64,7 @@ export default function Contact() {
                   <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-[var(--accent-color)] hover:text-white hover:-translate-y-1 transition-all duration-300 text-[var(--text-color)]">
                     <User size={20} />
                   </a>
-                  <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-[var(--accent-color)] hover:text-white hover:-translate-y-1 transition-all duration-300 text-[var(--text-color)]">
+                  <a href="https://www.linkedin.com/in/sabauddin-ahmed-khan/" target='_blank' rel='noopener noreferrer' className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-[var(--accent-color)] hover:text-white hover:-translate-y-1 transition-all duration-300 text-[var(--text-color)]">
                     <Globe size={20} />
                   </a>
                   <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-[var(--accent-color)] hover:text-white hover:-translate-y-1 transition-all duration-300 text-[var(--text-color)]">
