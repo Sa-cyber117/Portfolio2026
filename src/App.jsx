@@ -7,9 +7,11 @@ import Projects from './components/Projects';
 import OtherSections from './components/OtherSections';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
+    <>
     <div className="min-h-screen bg-[var(--bg-color)] text-[var(--text-color)] transition-colors duration-300 font-sans selection:bg-[var(--accent-color)] selection:text-white">
       <Navbar />
       
@@ -25,6 +27,8 @@ function App() {
 
       <Footer />
     </div>
+    <Analytics />
+    </>
   );
 }
 
