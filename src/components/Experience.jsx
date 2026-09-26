@@ -39,7 +39,7 @@ export default function Experience() {
             <div className="w-full md:w-1/2 ml-12 md:ml-0 md:pr-12 md:text-right mb-8 md:mb-0">
               <div className="glass p-6 rounded-2xl glow-effect text-left md:text-right relative">
                 <span className="inline-block px-3 py-1 bg-[var(--accent-color)]/20 text-[var(--accent-color)] text-sm font-semibold rounded-full mb-3">
-                  July 2024 - Present
+                  July 2024 - August 2026
                 </span>
                 <h3 className="text-2xl font-bold text-[var(--text-color)] mb-1">Associate Software Engineer</h3>
                 <h4 className="text-lg text-[var(--text-muted)] font-medium mb-4">Capgemini</h4>
