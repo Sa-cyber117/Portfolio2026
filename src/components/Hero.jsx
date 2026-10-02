@@ -108,7 +108,7 @@ export default function Hero() {
                 Download Resume <Download size={18} />
               </a> */}
               <a 
-                href="https://docs.google.com/document/d/1qx5i1RLcANWyMpGupjbbbLNOMEk28HPk/edit?usp=sharing&ouid=111956796379955505748&rtpof=true&sd=true"
+                href="https://docs.google.com/document/d/1DtWYEYerV2plSLGaEDUURogJ2FOveh_w/edit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 glass rounded-full font-medium hover:bg-[var(--card-border)] transition-colors flex items-center gap-2"
